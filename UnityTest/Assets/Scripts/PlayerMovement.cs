@@ -8,10 +8,11 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
     public Animator animator;
-    Vector2 movement;
+    private Vector2 movement;
 
+    public LayerMask solidObjectsLayer;
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
@@ -21,8 +22,22 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        var targetPos = rb.position + movement * moveSpeed * Time.fixedDeltaTime;
+        if (IsWalkable(targetPos))
+        {
+            rb.MovePosition(targetPos);
+        }
+        
+    }
+
+    private bool IsWalkable(Vector2 targetPos)
+    {
+        if (Physics2D.OverlapCircle(targetPos, 0.5f, solidObjectsLayer) != null)
+        {
+            return false;
+        }
+        return true;
     }
 }
