@@ -1,4 +1,4 @@
-# Team TYD - 2D Adventure Game
+# Team TYDS - 2D Adventure Game
 
 ## Team Members:
 - Yar Moradpour
