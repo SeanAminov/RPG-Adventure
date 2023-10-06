@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
 
     public LayerMask solidObjectsLayer;
+
+    private bool isMoving = true;
     // Update is called once per frame
     private void Update()
     {
@@ -21,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             Attack();
         }
@@ -29,12 +31,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        var targetPos = rb.position + movement * moveSpeed * Time.fixedDeltaTime;
-        if (IsWalkable(targetPos))
+        if (isMoving)
         {
-            rb.MovePosition(targetPos);
+            var targetPos = rb.position + movement * moveSpeed * Time.fixedDeltaTime;
+            if (IsWalkable(targetPos))
+            {
+                rb.MovePosition(targetPos);
+            }
         }
-        
+
     }
 
     private bool IsWalkable(Vector2 targetPos)
@@ -49,5 +54,15 @@ public class PlayerMovement : MonoBehaviour
     private void Attack()
     {
         animator.SetTrigger("BowAttack");
+    }
+
+    public void LockMovement()
+    {
+        isMoving = false;
+    }
+
+    public void UnlockMovement()
+    {
+        isMoving = true;
     }
 }
