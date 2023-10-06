@@ -12,7 +12,10 @@ public class PlayerMovement : MonoBehaviour
 
     public LayerMask solidObjectsLayer;
 
-    private bool isMoving = true;
+    private bool isMovingUp = true;
+    private bool isMovingDown = true;
+    private bool isMovingLeft = true;
+    private bool isMovingRight = true;
     // Update is called once per frame
     private void Update()
     {
@@ -25,13 +28,28 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Attack();
+            if(movement.x > 0)
+            {
+                animator.SetTrigger("AttackRight");
+            }
+            else if(movement.x < 0)
+            {
+                animator.SetTrigger("AttackLeft");
+            }
+            else if(movement.y > 0)
+            {
+                animator.SetTrigger("AttackUp");
+            }
+            else if(movement.y < 0)
+            {
+                animator.SetTrigger("AttackDown");
+            }
         }
     }
 
     private void FixedUpdate()
     {
-        if (isMoving)
+        if (isMovingUp || isMovingDown || isMovingLeft || isMovingRight)
         {
             var targetPos = rb.position + movement * moveSpeed * Time.fixedDeltaTime;
             if (IsWalkable(targetPos))
@@ -51,18 +69,42 @@ public class PlayerMovement : MonoBehaviour
         return true;
     }
 
-    private void Attack()
+
+    public void UpMovementLock()
     {
-        animator.SetTrigger("BowAttack");
+        isMovingUp = false;
     }
 
-    public void LockMovement()
+    public void UpUnlockMovement()
     {
-        isMoving = false;
+        isMovingUp = true;
     }
 
-    public void UnlockMovement()
+    public void DownMovementLock()
     {
-        isMoving = true;
+        isMovingDown = false;
+    }
+
+    public void DownUnlockMovement()
+    {
+        isMovingDown = true;
+    }
+    public void LeftMovementLock()
+    {
+        isMovingLeft = false;
+    }
+
+    public void LeftUnlockMovement()
+    {
+        isMovingLeft = true;
+    }
+    public void RightMovementLock()
+    {
+        isMovingRight = false;
+    }
+
+    public void RightUnlockMovement()
+    {
+        isMovingRight = true;
     }
 }
