@@ -20,6 +20,11 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+
+        if(Input.GetMouseButtonDown(0))
+        {
+            Attack();
+        }
     }
 
     private void FixedUpdate()
@@ -39,5 +44,10 @@ public class PlayerMovement : MonoBehaviour
             return false;
         }
         return true;
+    }
+
+    private void Attack()
+    {
+        animator.SetTrigger("BowAttack");
     }
 }
