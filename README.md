@@ -1,7 +1,7 @@
 # Team TYDS - 2D Adventure Game
 
 ## Team Members:
-- Yar Moradpour
+- [Yar Moradpour](https://github.com/khmorad)
 - Timothy Phan
 - Sean 
 - Yeng Her
