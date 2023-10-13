@@ -18,12 +18,12 @@ We are developing a 2D adventure game using the Unity game engine. This README f
 
 ### Game Development
 - [ ] Design game characters and assets
-- [ ] Implement player movement and controls
+- [x] Implement player movement and controls
 - [ ] Create game levels and environments
 - [ ] Add interactive elements (e.g., NPCs, items)
 
 ### Game Mechanics
-- [ ] Define game rules and mechanics
+- [x] Define game rules and mechanics
 - [ ] Implement scoring system
 - [ ] Integrate sound effects and music
 - [ ] Add animations and visual effects
