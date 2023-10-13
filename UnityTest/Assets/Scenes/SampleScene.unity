@@ -20103,8 +20103,8 @@ Tilemap:
   - first: {x: 18, y: -3, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 66
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21303,8 +21303,8 @@ Tilemap:
   - first: {x: 20, y: -1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 66
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -24813,8 +24813,8 @@ Tilemap:
   - first: {x: 17, y: 5, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 66
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -33212,7 +33212,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 2038
+  - m_RefCount: 2035
     m_Data: {fileID: 11400000, guid: 164e773cb7ddc614c9d6bbbb198b61ab, type: 2}
   - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: c9a5b90d84b3bd540af7ff4d519f2598, type: 2}
@@ -33344,10 +33344,10 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 5d7734c44b95c8840acf5a969f8f81a4, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 27080e159ff67144c9024e551dfda749, type: 2}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 3
+    m_Data: {fileID: 11400000, guid: 7c4425ca269cad64eaa37c48c6240f39, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 2038
+  - m_RefCount: 2035
     m_Data: {fileID: -823284104, guid: fa9008ba27d044823835d85918621932, type: 3}
   - m_RefCount: 6
     m_Data: {fileID: 884782274, guid: fa9008ba27d044823835d85918621932, type: 3}
@@ -33359,8 +33359,8 @@ Tilemap:
     m_Data: {fileID: 731104393, guid: fa9008ba27d044823835d85918621932, type: 3}
   - m_RefCount: 11
     m_Data: {fileID: -933865625, guid: fa9008ba27d044823835d85918621932, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 3
+    m_Data: {fileID: 80318098, guid: fa9008ba27d044823835d85918621932, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1022488079, guid: fa9008ba27d044823835d85918621932, type: 3}
   - m_RefCount: 11
