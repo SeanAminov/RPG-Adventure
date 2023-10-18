@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixilart-sprite_0
+      name: player-walk-left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b34eced106695540b706d9619a41322
-      internalID: 1798403035
+      spriteID: 58103eaec9c3d14458800f7c612481fb
+      internalID: -1696571366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite_1
+      name: player-walk-left_1
       rect:
         serializedVersion: 2
         x: 32
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dfbc1b4b2948c44b944367e089ee640
-      internalID: -882271852
+      spriteID: cb436404158a7e8498e230b130b3077f
+      internalID: -148566413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite_2
+      name: player-walk-left_2
       rect:
         serializedVersion: 2
         x: 64
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bd511684eff71f45a28a642ee32933f
-      internalID: -699371185
+      spriteID: ef7aec43ccd1c7c40ad2e753494738fd
+      internalID: -1198945266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite_3
+      name: player-walk-left_3
       rect:
         serializedVersion: 2
         x: 96
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a94f9684e52bed14ca81fcc9f88886c2
-      internalID: 1308996991
+      spriteID: 5ab9ce68822ae904a812344e634bbca3
+      internalID: -336941179
       vertices: []
       indices: 
       edges: []
@@ -217,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixilart-sprite_0: 1798403035
-      pixilart-sprite_1: -882271852
-      pixilart-sprite_2: -699371185
-      pixilart-sprite_3: 1308996991
+      player-walk-left_0: -1696571366
+      player-walk-left_1: -148566413
+      player-walk-left_2: -1198945266
+      player-walk-left_3: -336941179
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

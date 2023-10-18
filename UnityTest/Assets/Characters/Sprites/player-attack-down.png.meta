@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 693da38621305b049933ae80461ad102
+guid: 8b70fae1a7c4e1f41b8f20b5ab95a098
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixilart-sprite-attack_0
+      name: player-attack-down_0
       rect:
         serializedVersion: 2
-        x: 31
+        x: 0
         y: 0
         width: 32
-        height: 45
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,41 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4eaba69a4ad1604e8e5bc6a882eb973
-      internalID: 450098423
+      spriteID: bf0662b72c32ed545ae36e370944bd71
+      internalID: -684275108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite-attack_1
+      name: player-attack-down_1
       rect:
         serializedVersion: 2
-        x: 121
-        y: 1
-        width: 29
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bc629b35b47dad44b4ca35b28eff344
-      internalID: -1357642456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite-attack_2
-      rect:
-        serializedVersion: 2
-        x: 210
+        x: 32
         y: 0
-        width: 31
-        height: 45
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 989cbd81a85b0f94ea2ed992704eefc9
-      internalID: 1926505406
+      spriteID: 8d6c47e279bf9ae4bb4294e9174a8466
+      internalID: 1556723401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite-attack_3
+      name: player-attack-down_2
       rect:
         serializedVersion: 2
-        x: 300
+        x: 64
         y: 0
-        width: 31
-        height: 45
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7546697212427f34c9303c3c693b64b3
-      internalID: -1873135664
+      spriteID: 40bc1817c29b97b48ab90d7104f85ae7
+      internalID: 234249744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite-attack_4
+      name: player-attack-down_3
       rect:
         serializedVersion: 2
-        x: 375
+        x: 96
         y: 0
-        width: 44
-        height: 45
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 281f6deec07a5ef4e96cfc1159129e25
-      internalID: 1162090133
+      spriteID: a7684784badd52f4095aa9c455b3ff32
+      internalID: -1536664828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite-attack_5
+      name: player-attack-down_4
       rect:
         serializedVersion: 2
-        x: 458
+        x: 128
         y: 0
-        width: 51
-        height: 45
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,8 +221,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a1be86e07808304ba8d2abad03a38e8
-      internalID: 1340181735
+      spriteID: 700fc0f330ac26740ba4b9f328d3d10c
+      internalID: -407359958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-attack-down_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb933c3a0900ca74ea502bbe161904b2
+      internalID: 1209254577
       vertices: []
       indices: 
       edges: []
@@ -259,12 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixilart-sprite-attack_0: 450098423
-      pixilart-sprite-attack_1: -1357642456
-      pixilart-sprite-attack_2: 1926505406
-      pixilart-sprite-attack_3: -1873135664
-      pixilart-sprite-attack_4: 1162090133
-      pixilart-sprite-attack_5: 1340181735
+      player-attack-down_0: -684275108
+      player-attack-down_1: 1556723401
+      player-attack-down_2: 234249744
+      player-attack-down_3: -1536664828
+      player-attack-down_4: -407359958
+      player-attack-down_5: 1209254577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
