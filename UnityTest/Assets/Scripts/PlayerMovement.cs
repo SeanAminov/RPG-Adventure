@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    public float sprintMultiplier = 2f;
 
     public Rigidbody2D rb;
     public Animator animator;
@@ -21,6 +22,10 @@ public class PlayerMovement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        if (Input.GetKey(KeyCode.LeftShift)) // Check if LeftShift is pressed
+        {
+            movement *= sprintMultiplier; // Apply sprint multiplier
+        }
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
