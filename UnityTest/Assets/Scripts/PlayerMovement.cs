@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float sprintMultiplier = 2f;
+    public float sprintMultiplier = 1f;
 
     public Rigidbody2D rb;
     public Animator animator;
@@ -17,15 +17,24 @@ public class PlayerMovement : MonoBehaviour
     private bool isMovingDown = true;
     private bool isMovingLeft = true;
     private bool isMovingRight = true;
+
+    private bool isRunning = false;
     // Update is called once per frame
     private void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if (Input.GetKey(KeyCode.LeftShift)) // Check if LeftShift is pressed
+        if (Input.GetKeyDown(KeyCode.LeftShift)) // Check if LeftShift is pressed
         {
-            movement *= sprintMultiplier; // Apply sprint multiplier
+            // movement *= sprintMultiplier; // Apply sprint multiplier
+            isRunning = !isRunning;
         }
+
+       
+        animator.SetBool("RunningLeft", isRunning);
+
+
+
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
@@ -33,19 +42,19 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            if(movement.x > 0)
+            if (movement.x > 0)
             {
                 animator.SetTrigger("AttackRight");
             }
-            else if(movement.x < 0)
+            else if (movement.x < 0)
             {
                 animator.SetTrigger("AttackLeft");
             }
-            else if(movement.y > 0)
+            else if (movement.y > 0)
             {
                 animator.SetTrigger("AttackUp");
             }
-            else if(movement.y < 0)
+            else if (movement.y < 0)
             {
                 animator.SetTrigger("AttackDown");
             }
@@ -54,8 +63,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (isRunning)
+        {
+            movement *= sprintMultiplier;
+        }
         if (isMovingUp && isMovingDown && isMovingLeft && isMovingRight)
         {
+
+
             var targetPos = rb.position + movement * moveSpeed * Time.fixedDeltaTime;
             if (IsWalkable(targetPos))
             {
