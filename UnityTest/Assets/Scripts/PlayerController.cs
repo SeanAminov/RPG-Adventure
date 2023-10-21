@@ -19,6 +19,11 @@ public class PlayerMovement : MonoBehaviour
     private bool isMovingRight = true;
 
     private bool isRunning = false;
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+    }
     // Update is called once per frame
     private void Update()
     {
@@ -26,8 +31,9 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         if (Input.GetKeyDown(KeyCode.LeftShift)) // Check if LeftShift is pressed
         {
-            // movement *= sprintMultiplier; // Apply sprint multiplier
+            
             isRunning = !isRunning;
+            
         }
 
        
