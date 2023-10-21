@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isMovingRight = true;
 
     private bool isRunning = false;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
