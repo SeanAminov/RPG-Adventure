@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class CollidableObject : MonoBehaviour
 {
+    /*
     private Collider2D z.Collider;
     private ContactFilter2D z_Filter;
     private List<Collider2D> z_CollidedObjects;
     // Start is called before the first frame update
-    void Start()
+    void Start() 
     {
         z_Collider = GetComponent<Collider2D>();
     }
@@ -21,4 +22,5 @@ public class CollidableObject : MonoBehaviour
             Debug.Log("Collided with " + o.name);
         }
     }
+    */
 }
