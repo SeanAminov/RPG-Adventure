@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 74be1f22491de8f43b57cdf88b1dc399
+guid: 253bc1a93e3b45d48be01180e5806db2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixilart-sprite-walkin_0
+      name: player-walk-left-2_0
       rect:
         serializedVersion: 2
-        x: 10
+        x: 3
         y: 0
-        width: 31
-        height: 31
+        width: 36
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9faac81d45889d744b6b35612e8b549f
-      internalID: -1035061865
+      spriteID: fd0b1ccb1f6c69746a2ff1aa167a89ff
+      internalID: -1742189811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite-walkin_1
+      name: player-walk-left-2_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 0
-        width: 38
-        height: 34
+        width: 35
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c6b25e3667c7c244bcc7ff9a2d9a9e1
-      internalID: -1563209616
+      spriteID: 45d9ee4d5464b42459a193de96f2ecec
+      internalID: 339741265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite-walkin_2
+      name: player-walk-left-2_2
       rect:
         serializedVersion: 2
-        x: 102
+        x: 106
         y: 0
-        width: 27
-        height: 34
+        width: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edb7613106ada7147a93d8e900e53569
-      internalID: -1821860555
+      spriteID: 18a0effa5ddd0f442bf5ed5c45ab83b1
+      internalID: 1246681750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite-walkin_3
+      name: player-walk-left-2_3
       rect:
         serializedVersion: 2
-        x: 148
+        x: 139
         y: 0
-        width: 26
-        height: 31
+        width: 35
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,50 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ad191602e483bf4f962229ac10b25ca
-      internalID: -756277189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite-walkin_4
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 27
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df11141aa2c163b48bdba44f84422705
-      internalID: -1924271893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite-walkin_5
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 0
-        width: 38
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2874d7c9a5a78ae4f89ede6dbd0dcd00
-      internalID: 1993037912
+      spriteID: 42bb43efb2b317940bd35badd0169a95
+      internalID: -99630486
       vertices: []
       indices: 
       edges: []
@@ -259,12 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixilart-sprite-walkin_0: -1035061865
-      pixilart-sprite-walkin_1: -1563209616
-      pixilart-sprite-walkin_2: -1821860555
-      pixilart-sprite-walkin_3: -756277189
-      pixilart-sprite-walkin_4: -1924271893
-      pixilart-sprite-walkin_5: 1993037912
+      player-walk-left-2_0: -1742189811
+      player-walk-left-2_1: 339741265
+      player-walk-left-2_2: 1246681750
+      player-walk-left-2_3: -99630486
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
