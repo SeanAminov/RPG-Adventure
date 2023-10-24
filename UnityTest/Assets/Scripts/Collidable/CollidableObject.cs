@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CollidableObject : MonoBehaviour
 {
-    private Collider2D z.Collider;
+    private Collider2D z_Collider;
     private ContactFilter2D z_Filter;
     private List<Collider2D> z_CollidedObjects;
     // Start is called before the first frame update
