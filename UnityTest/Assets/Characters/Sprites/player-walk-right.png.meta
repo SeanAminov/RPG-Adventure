@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0b0b34158be969d47ac030116c51e1fc
+guid: d57df418616f49442b92172543ccf5c2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,43 +123,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player-walk-right_0
+      name: player-walk-right_3
       rect:
         serializedVersion: 2
-        x: 0
+        x: 6
         y: 0
-        width: 32
+        width: 35
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b378c7886191da649ab3bab6ef3a1cc7
-      internalID: 860767666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player-walk-right_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56b5305c984dc8440947f8dff8594b64
-      internalID: -570103497
+      spriteID: 4d67348884f48b0429e2bc784928080b
+      internalID: 1177992866
       vertices: []
       indices: 
       edges: []
@@ -168,40 +147,61 @@ TextureImporter:
       name: player-walk-right_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 52
         y: 0
-        width: 32
+        width: 22
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 378a6f62897e61c41830b60231c7d5d9
-      internalID: 326406793
+      spriteID: 7910a1ee64cfb784b876f48993add616
+      internalID: 748013219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player-walk-right_3
+      name: player-walk-right_1
       rect:
         serializedVersion: 2
         x: 96
         y: 0
-        width: 32
+        width: 35
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e12e14dd4692124f9bcb0f783ac43af
-      internalID: 2101137792
+      spriteID: b29bda76c66c0d340a0dafdd80284e0a
+      internalID: -2013494893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player-walk-right_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc37b0b139ed9d24589b13bd560bd830
+      internalID: 1705950772
       vertices: []
       indices: 
       edges: []
@@ -217,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      player-walk-right_0: 860767666
-      player-walk-right_1: -570103497
-      player-walk-right_2: 326406793
-      player-walk-right_3: 2101137792
+      player-walk-right_0: 1705950772
+      player-walk-right_1: -2013494893
+      player-walk-right_2: 748013219
+      player-walk-right_3: 1177992866
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
