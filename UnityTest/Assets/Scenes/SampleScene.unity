@@ -1779,7 +1779,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.27, y: 0.04, z: -10}
+  m_LocalPosition: {x: -13.21, y: 7.18, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1915,13 +1915,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 381821006883519046, guid: e347f12c61dad3943948f90089068cfd, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7642431
+      objectReference: {fileID: 0}
+    - target: {fileID: 381821006883519046, guid: e347f12c61dad3943948f90089068cfd, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.22460032
+      objectReference: {fileID: 0}
     - target: {fileID: 566206359631415035, guid: e347f12c61dad3943948f90089068cfd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.27
+      value: -13.21
       objectReference: {fileID: 0}
     - target: {fileID: 566206359631415035, guid: e347f12c61dad3943948f90089068cfd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.04
+      value: 7.18
       objectReference: {fileID: 0}
     - target: {fileID: 566206359631415035, guid: e347f12c61dad3943948f90089068cfd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1958,7 +1966,11 @@ PrefabInstance:
     - target: {fileID: 1769489829722167369, guid: e347f12c61dad3943948f90089068cfd, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1963116481, guid: 0cf465f2fe229d04bb828f2a55f0a581, type: 3}
+      objectReference: {fileID: -1752570636, guid: ae4a4797608c26347bcd13064904281b, type: 3}
+    - target: {fileID: 2723614302750077083, guid: e347f12c61dad3943948f90089068cfd, type: 3}
+      propertyPath: swordHitbox
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4670218948528414616, guid: e347f12c61dad3943948f90089068cfd, type: 3}
       propertyPath: m_Name
       value: Main Character
@@ -1967,8 +1979,13 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6641240280447090140, guid: e347f12c61dad3943948f90089068cfd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.524
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4828686632230868146, guid: e347f12c61dad3943948f90089068cfd, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e347f12c61dad3943948f90089068cfd, type: 3}
@@ -75977,7 +75994,7 @@ Transform:
   m_GameObject: {fileID: 1976298876}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.27, y: 0.04, z: -10}
+  m_LocalPosition: {x: -13.21, y: 7.18, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -76072,9 +76089,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 190379170869375467, guid: 632bd404c4493374e9c4d53b5d9fb11b, type: 3}
+      propertyPath: m_Radius
+      value: 0.7145436
+      objectReference: {fileID: 0}
+    - target: {fileID: 190379170869375467, guid: 632bd404c4493374e9c4d53b5d9fb11b, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.13606238
+      objectReference: {fileID: 0}
     - target: {fileID: 3843699864927228712, guid: 632bd404c4493374e9c4d53b5d9fb11b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.41
+      value: -20.97
       objectReference: {fileID: 0}
     - target: {fileID: 3843699864927228712, guid: 632bd404c4493374e9c4d53b5d9fb11b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -76112,9 +76137,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4777092194058275140, guid: 632bd404c4493374e9c4d53b5d9fb11b, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4777092194058275140, guid: 632bd404c4493374e9c4d53b5d9fb11b, type: 3}
+      propertyPath: m_Interpolate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4777092194058275140, guid: 632bd404c4493374e9c4d53b5d9fb11b, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6605678146231243302, guid: 632bd404c4493374e9c4d53b5d9fb11b, type: 3}
       propertyPath: m_Name
       value: Slime Mob
+      objectReference: {fileID: 0}
+    - target: {fileID: 6605678146231243302, guid: 632bd404c4493374e9c4d53b5d9fb11b, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

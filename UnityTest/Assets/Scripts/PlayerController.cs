@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isRunning = false;
 
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -32,12 +33,12 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         if (Input.GetKeyDown(KeyCode.LeftShift)) // Check if LeftShift is pressed
         {
-            
+
             isRunning = !isRunning;
-            
+
         }
 
-       
+
         animator.SetBool("RunningLeft", isRunning);
 
 
@@ -64,6 +65,28 @@ public class PlayerMovement : MonoBehaviour
             else if (movement.y < 0)
             {
                 animator.SetTrigger("AttackDown");
+            }
+            else
+            {
+                 // If the player is idle, determine the attack direction based on the mouse position
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            
+            float xPos = mousePos.x - rb.position.x;
+            float yPos = mousePos.y - rb.position.y;
+
+            if(Mathf.Abs(xPos) > Mathf.Abs(yPos)){
+                if(xPos > 0){
+                    animator.SetTrigger("AttackRight");
+                }else{
+                    animator.SetTrigger("AttackLeft");
+                }
+            }else{
+                if(yPos > 0){
+                    animator.SetTrigger("AttackUp");
+                }else{
+                    animator.SetTrigger("AttackDown");
+                }
+            }
             }
         }
     }

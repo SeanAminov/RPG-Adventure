@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Attack_Down
+  m_Name: Slime_Dmg
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,23 +21,15 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -684275108, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
-    - time: 0.125
-      value: {fileID: 1556723401, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
-    - time: 0.25
-      value: {fileID: 234249744, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
-    - time: 0.375
-      value: {fileID: -1536664828, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
-    - time: 0.5
-      value: {fileID: -407359958, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
-    - time: 0.625
-      value: {fileID: 1209254577, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
+      value: {fileID: -1729090038, guid: 79ba66e2de4d37547bbb031b2ae5a31c, type: 3}
+    - time: 0.2
+      value: {fileID: -189138345, guid: 79ba66e2de4d37547bbb031b2ae5a31c, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 8
+  m_SampleRate: 5
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -54,18 +46,14 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -684275108, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
-    - {fileID: 1556723401, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
-    - {fileID: 234249744, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
-    - {fileID: -1536664828, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
-    - {fileID: -407359958, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
-    - {fileID: 1209254577, guid: 8b70fae1a7c4e1f41b8f20b5ab95a098, type: 3}
+    - {fileID: -1729090038, guid: 79ba66e2de4d37547bbb031b2ae5a31c, type: 3}
+    - {fileID: -189138345, guid: 79ba66e2de4d37547bbb031b2ae5a31c, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.75
+    m_StopTime: 0.4
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -84,18 +72,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0
-    functionName: DownMovementLock
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.75
-    functionName: DownUnlockMovement
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
