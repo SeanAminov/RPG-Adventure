@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 3137146701536491704}
   - component: {fileID: 5189812404054810073}
   - component: {fileID: 4777092194058275140}
-  - component: {fileID: 190379170869375467}
-  - component: {fileID: 5583659283676386925}
+  - component: {fileID: 4070105125428152311}
   m_Layer: 7
   m_Name: Slime Mob
   m_TagString: Enemy
@@ -136,42 +135,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!58 &190379170869375467
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6605678146231243302}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.07330513, y: -0.20036769}
-  serializedVersion: 2
-  m_Radius: 0.64813495
---- !u!114 &5583659283676386925
+--- !u!114 &4070105125428152311
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,6 +144,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6605678146231243302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcaea3d3e3b3efc44afa738c1c379cea, type: 3}
+  m_Script: {fileID: 11500000, guid: 0faa4e751d1200a47932860cfcb975eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

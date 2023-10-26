@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float sprintMultiplier = 1f;
+    private float moveSpeed = 5f;
+    [SerializeField] private float sprintMultiplier;
 
     public Rigidbody2D rb;
     public Animator animator;
