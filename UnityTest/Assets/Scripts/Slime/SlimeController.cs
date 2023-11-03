@@ -29,7 +29,7 @@ public class SlimeController : MonoBehaviour
     {
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
-
+        
 
 
         if (distance < distanceBetween)
@@ -55,6 +55,8 @@ public class SlimeController : MonoBehaviour
                 {
                     animator.SetTrigger("SlimeAttack");
                     lastAttackTime = Time.time;
+                  //  player.TakeDamage(10);
+                    
                 }
             }
 
