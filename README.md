@@ -13,7 +13,7 @@ We are developing a 2D adventure game using the Unity game engine. This README f
 
 ### Initialization
 - [x] Set up Git repository
-- [ ] Create initial game concept
+- [x] Create initial game concept
 - [ ] Establish basic project structure
 
 ### Game Development
