@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     private Vector2 movement;
+    public Health health;
 
     public LayerMask solidObjectsLayer;
 
@@ -17,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isMovingDown = true;
     private bool isMovingLeft = true;
     private bool isMovingRight = true;
-
+    
     private bool isRunning = false;
 
 
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        health = GetComponent<Health>();
     }
     // Update is called once per frame
     private void Update()

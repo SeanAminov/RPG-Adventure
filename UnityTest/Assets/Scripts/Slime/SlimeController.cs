@@ -6,6 +6,7 @@ public class SlimeController : MonoBehaviour
 {
     public GameObject player;
     public float moveSpeed;
+    public Health playerHealth;
 
     public float distanceBetween;
     private float distance;
@@ -55,8 +56,7 @@ public class SlimeController : MonoBehaviour
                 {
                     animator.SetTrigger("SlimeAttack");
                     lastAttackTime = Time.time;
-                  //  player.TakeDamage(10);
-                    
+                    playerHealth.TakeDamage(1); // Move when not getting stuck
                 }
             }
 

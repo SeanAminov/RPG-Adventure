@@ -76572,6 +76572,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4070105125428152311, guid: 632bd404c4493374e9c4d53b5d9fb11b, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 2147369887}
+    - target: {fileID: 4070105125428152311, guid: 632bd404c4493374e9c4d53b5d9fb11b, type: 3}
       propertyPath: distanceBetween
       value: 5
       objectReference: {fileID: 0}

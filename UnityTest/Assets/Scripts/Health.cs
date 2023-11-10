@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 10;
     public int currentHealth;
 
     public Animator anim;
@@ -18,7 +18,7 @@ public class Health : MonoBehaviour
         currentHealth -= amount;
 
         if (currentHealth <= 0) {
-         //   anim.setBool
+         //   anim.setBool("IsDead", true);
          //Death Animation
          
         }
