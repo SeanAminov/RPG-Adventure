@@ -3,7 +3,7 @@
 ## Team Members:
 - [Yar Moradpour](https://github.com/khmorad)
 - Timothy Phan
-- Sean 
+- Sean Aminov
 - Yeng Her
 
 ## Project Description:
